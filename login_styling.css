@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    justify-items: center;
+    font-family: "Inter", sans-serif;
+}
+
+.btn {
+    background-color: white;
+    color: black;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid black;
+    border-radius: 15px;
+    height: auto;
+   /*  width: 70px; */
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.field {
+    background-color: azure;
+    border: 1px solid grey;
+    border-radius: 15px;
+}
+
+input {
+    margin-bottom: 10px;
+    height: 25px;
+}
+
+div {
+    margin: 50px;
+    padding: 50px 25px 50px 25px;
+    justify-items: center;
+    align-self: center;
+    width: 250px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+div, form, h2, label {
+    background-color: #1F1F1F;
+}
+
+label {
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: aliceblue;
+    margin-bottom: 20px;
+}
+
+a {
+    color: aliceblue;
+    margin-left: 15px;
+}
